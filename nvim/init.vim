@@ -333,6 +333,7 @@ let g:indent_guides_start_level = 2
 let g:indentLine_char = '┆'
 
 let g:indentLine_fileTypeExclude = ['text', 'sh', 'which_key']
+let g:indentLine_bufTypeExclude = ['help', 'terminal']
 
 """ rainbow
 let g:rainbow_active = 1
