@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "coc-calc": ">=2.0.2",
+    "coc-clangd": ">=0.15.1",
+    "coc-cmake": ">=0.2.0",
+    "coc-explorer": ">=0.18.17",
+    "coc-html": ">=1.4.1",
+    "coc-json": ">=1.3.6",
+    "coc-marketplace": ">=1.8.1",
+    "coc-pairs": ">=1.3.0",
+    "coc-prettier": ">=1.1.24",
+    "coc-pyright": ">=1.1.168",
+    "coc-vimlsp": ">=0.12.4"
+  }
+}
