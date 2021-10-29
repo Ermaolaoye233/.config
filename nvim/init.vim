@@ -271,7 +271,8 @@ let g:coc_global_extensions = [
 	\'coc-prettier',
 	\'coc-pairs',
 	\'coc-html',
-	\'coc-cmake']
+	\'coc-cmake',
+	\'coc-flutter']
 " __coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
