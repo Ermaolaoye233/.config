@@ -8,6 +8,8 @@
 let g:mapleader= "\<Space>"
 let g:maplocalleader = ","
 let g:which_key_map = {}
+let g:afterglow_inherit_background=1
+
 
 " ==== Vimscript file settings ==== {{{
 " Autofolding
@@ -86,6 +88,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'Yggdroot/indentLine'
 " rainbow
 Plug 'luochen1990/rainbow'
+" Afterglow theme
+Plug 'danilo-augusto/vim-afterglow'
 
 call plug#end()
 " }}}
@@ -339,3 +343,6 @@ let g:indentLine_bufTypeExclude = ['help', 'terminal']
 """ rainbow
 let g:rainbow_active = 1
 "}}}
+"
+colorscheme afterglow
+let g:airline_theme='afterglow'
